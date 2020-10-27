@@ -34,11 +34,10 @@
         </VisualStateManager.VisualStateGroups>
 
         <Image Name="ProductImage" Source="{x:Bind Contact.Image}" Width="100" Height="100"/>
-        <StackPanel Orientation="Horizontal"
-                    Margin="0, 10, 0, 0"
-                    HorizontalAlignment="Center">
-            <TextBlock Text="{x:Bind Contact.Product}" Margin="0, 0, 5, 0"/>
-            <TextBlock Text="{x:Bind Contact.Description}"/>
+        <StackPanel Margin="0, 20, 0, 0"
+                    HorizontalAlignment="Left">
+            <TextBlock Text="{x:Bind Contact.Product}" Margin="0, 0, 5, 0" FontSize="34"/>
+            <TextBlock Text="{x:Bind Contact.Description}" FontSize="20"/>
         </StackPanel>
     </StackPanel>
 </UserControl>
