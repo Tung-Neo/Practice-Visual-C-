@@ -36,8 +36,8 @@
         <Image x:ConnectionId='4' Name="ProductImage"                                 Width="100" Height="100"/>
         <StackPanel Margin="0, 20, 0, 0"
                     HorizontalAlignment="Left">
-            <TextBlock x:ConnectionId='5'                                 Margin="0, 0, 5, 0" FontSize="36"/>
-            <TextBlock x:ConnectionId='6'                                     FontSize="24"/>
+            <TextBlock x:ConnectionId='5'                                 Margin="0, 0, 5, 0" FontSize="34"/>
+            <TextBlock x:ConnectionId='6'                                     FontSize="20"/>
         </StackPanel>
     </StackPanel>
 </UserControl>
